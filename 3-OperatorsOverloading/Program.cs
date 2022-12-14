@@ -22,7 +22,7 @@ namespace OperatorsOverloading
             // Look at this cast!
             // It is possible because of the conversion operator implemented in list
             // Because it is implicit, we can also remove the cast here
-            if (lst1 != (List<int>) res1)
+            if (lst1 != res1)
             {
                 throw new Exception("Wrong implementation");
             }
